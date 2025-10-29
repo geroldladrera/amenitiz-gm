@@ -44,7 +44,8 @@ The app displays a list of top chess Grandmasters (GMs) and their profiles using
 
 3. Run the app locally
 
-  npm run dev
+   ```bash
+     npm run dev
 
   Then open http://localhost:5173
 
