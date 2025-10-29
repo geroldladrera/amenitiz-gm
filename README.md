@@ -40,6 +40,7 @@ The app displays a list of top chess Grandmasters (GMs) and their profiles using
 
 2. **Install dependencies**
 
+   ```bash
    npm install
 
 3. Run the app locally
