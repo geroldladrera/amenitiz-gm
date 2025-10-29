@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   Link,
@@ -271,7 +271,7 @@ function GMProfile() {
 // App root
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div style={{ fontFamily: "system-ui, Arial, sans-serif" }}>
         <nav style={{ padding: 12, borderBottom: "1px solid #ddd" }}>
           <Link to="/">Home</Link>
@@ -281,6 +281,6 @@ export default function App() {
           <Route path="/player/:username" element={<GMProfile />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
